@@ -31,3 +31,5 @@ Dummy Rails API to reproduce problem rspec bug when making a POST request to an 
 	]
 }
 ```
+
+The bug is being reproduced in the [controller specs](https://github.com/j-monteiro/rspec-test-bug/blob/main/spec/requests/ping_controller_spec.rb)
