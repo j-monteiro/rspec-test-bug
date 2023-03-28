@@ -7,8 +7,8 @@ RSpec.describe 'PingControllers', type: :request do
     let(:params) do
       {
         example_array: [
-          { inner_objekt: ['value'] },
-          { inner_objekt: ['value'] }
+          { inner_objekt: ['value'], id: 'cenas' },
+          { inner_objekt: ['value'], id: 'coisas' }
         ]
       }
     end

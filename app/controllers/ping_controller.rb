@@ -2,6 +2,6 @@
 
 class PingController < ApplicationController
   def create
-    render json: { message: 'pong' }
+    render json: params.except(:controller, :action)
   end
 end
